@@ -4,7 +4,7 @@ const Key = ({letter}) => {
     return <div className="key">
         {
             letter.isShown && <Slide direction="down" in={true} appear={true} timeout={1000}>
-                <span>{letter.letter}</span>
+                <p style={{ verticalAlign: 'center' }}>{letter.letter}</p>
             </Slide>
         }
     </div>;

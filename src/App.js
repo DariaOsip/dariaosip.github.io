@@ -6,7 +6,7 @@ import {useState} from "react";
 import Key from "./Key";
 import secret from "./constants/secret";
 import questions from "./constants/questions";
-import {Slide, Zoom} from "@mui/material";
+import {Zoom} from "@mui/material";
 
 function App() {
     const [text, setText] = useState('');
@@ -46,12 +46,6 @@ function App() {
                         <p>{questions[currQuestionId].text}</p>
                     </Zoom>
                 </div>
-
-                {/*<Slide in={true} appear={true} timeout={1000}>*/}
-                {/*    <p className="question">*/}
-                {/*        {questions[currQuestionId].text}*/}
-                {/*    </p>*/}
-                {/*</Slide>*/}
 
                 <div className="form">
                     <FloatingLabel label="Enter your answer">
