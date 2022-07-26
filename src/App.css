@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   background-color: #10155C;
-  background-image: url('bg.jpg');
+  background-image: url('bg.png');
   background-repeat: no-repeat;
   background-size: 100% 180%;
 
@@ -59,7 +59,7 @@
   border: 2px solid white;
   color: white;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 30px;
 }
 
 @media (max-width:450px)  {
@@ -68,9 +68,10 @@
     margin: 10px;
   }
 
-  .key {
+  .key, .key span {
     max-width: 50px;
     max-height: 50px;
+    font-size: 30px;
   }
 
   .secret {
@@ -80,7 +81,7 @@
 
   .question {
     height: auto;
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
@@ -90,10 +91,10 @@
     margin: 10px;
   }
 
-  .key {
+  .key, .key span {
     max-width: 30px;
     max-height: 30px;
-    font-size: 2em;
+    font-size: 18px;
   }
 
   .secret {
