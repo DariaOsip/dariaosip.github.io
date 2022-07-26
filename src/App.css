@@ -90,6 +90,7 @@
   }
 
   .question {
+    width: 90%;
     height: auto;
     font-size: 22px;
   }
