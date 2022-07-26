@@ -4,7 +4,7 @@
   background-color: #6ACDFF;
   background-image: url('bg.png');
   background-repeat: repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .App-logo {
