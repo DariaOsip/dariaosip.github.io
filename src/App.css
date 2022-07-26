@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: #6ACDFF;
   background-image: url('bg.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: contain;
 }
 
@@ -32,6 +32,10 @@
   width: 500px;
 }
 
+.form input {
+  background-color: rgba(250, 249, 247, .6);
+}
+
 .form button {
   margin-top: 40px;
   width: 100%;
@@ -46,6 +50,9 @@
   height: 200px;
   display: flex;
   align-items: center;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgba(216, 116, 0, .6);
 }
 
 .key {
@@ -62,8 +69,12 @@
 }
 
 @media (max-width:450px)  {
+  .App {
+    background-repeat: no-repeat;
+  }
+
   .form {
-    width: 100%;
+    width: 90%;
     margin: 10px;
   }
 
@@ -86,7 +97,7 @@
 
 @media (max-width:300px)  {
   .form {
-    width: 100%;
+    width: 90%;
     margin: 10px;
   }
 
