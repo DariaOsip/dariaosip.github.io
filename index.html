@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="loading">
+      <h2>Loading...</h2>
+      <div class="spinner"></div>
+    </div>
+    <div id="game" class="hidden">
+      <aside class="change-avatar__controls">
+        <div id="change-avatar__popover" class="hidden">
+          <img id="change-avatar_girl" class="change-avatar__popover-item" src="images/avatar_girl.png" alt="avatar girl">
+          <img id="change-avatar_man" class="change-avatar__popover-item" src="images/avatar_man.png" alt="avatar man">
+        </div>
+        <div id="change-avatar__button">Choose avatar</div>
+      </aside>
+      <aside id="instructions">
+        <ul id="directional">
+          <li>W</li>
+          <li>A</li>
+          <li>D</li>
+          <li>S</li>
+        </ul>
+        <ul id="rotational">
+          <li><span>&#8227;</span></li>
+          <li>&#8227;</li>
+          <li>&#8227;</li>
+          <li><span>&#8227;</span></li>
+        </ul>
+      </aside>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
