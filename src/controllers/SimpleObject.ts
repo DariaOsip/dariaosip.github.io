@@ -1,3 +1,4 @@
+// @ts-ignore
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
 import * as THREE from 'three';
 import {Group, Object3D} from 'three';

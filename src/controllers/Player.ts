@@ -1,3 +1,4 @@
+// @ts-ignore
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
 import * as THREE from 'three';
 import { AnimationClip } from 'three';
@@ -54,6 +55,7 @@ class Player extends THREE.Group {
 
   private setClipToMixer = (clip: AnimationClip) => {
     const action = this.mixer.clipAction(clip);
+    // @ts-ignore
     action.name = clip.name;
     this.actionList[clip.name] = action as ActionData;
   };

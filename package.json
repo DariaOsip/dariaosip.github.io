@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "homepage": "https://dariaosip.github.io/",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "@types/three": "^0.154.0",
